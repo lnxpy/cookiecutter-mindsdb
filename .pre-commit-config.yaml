@@ -1,4 +1,4 @@
-exclude: "{{cookiecutter.handler_slug}}_handler"
+exclude: "{{ cookiecutter.handler_slug }}_handler/"
 
 repos:
   - repo: "https://github.com/pre-commit/pre-commit-hooks"

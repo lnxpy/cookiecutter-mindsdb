@@ -1,0 +1,18 @@
+{
+    "handler_name": "Awesome",
+    "handler_slug": "{{ cookiecutter.handler_name.lower().replace(' ', '_') }}",
+    "description": "MindsDB handler for doing awesome things",
+    "author_name": "John Doe",
+    "version": "0.1.0",
+    "include_dependencies": "n",
+    "include_version_bumper": "y",
+    "__prompts__": {
+        "handler_name": "Handler name",
+        "handler_slug": "Handler slug",
+        "description": "Description",
+        "author_name": "Author name",
+        "version": "Version",
+        "include_dependencies": "Has dependencies",
+        "include_version_bumper": "Need version bumper (bump2version)"
+    }
+}
